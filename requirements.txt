@@ -1,0 +1,19 @@
+# Core
+numpy>=1.26
+pandas>=2.0
+scipy>=1.11          # linprog (HiGHS) and shadow prices via res.ineqlin.marginals
+scikit-learn>=1.4
+ 
+# Uplift modeling and metrics (Qini, AUUC, datasets)
+scikit-uplift>=0.5.1
+ 
+# Hyperparameter tuning
+optuna>=3.5
+ 
+# Plots and notebooks
+matplotlib>=3.8
+jupyterlab>=4.0
+ 
+# Tested together on Python 3.13 with: scikit-uplift 0.5.1, scikit-learn 1.9.1,
+# numpy 2.5.4, pandas 3.0.6, scipy 1.18.1, matplotlib 3.11.2, optuna 5.0.0
+ 

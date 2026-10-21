@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (download with sklift.datasets, do not commit)
+data/
+*.csv
+*.csv.gz
+*.parquet
+
+# Optuna studies and local experiment output
+*.db
+optuna_*.sqlite3
+outputs/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
